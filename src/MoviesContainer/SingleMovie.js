@@ -5,7 +5,7 @@ import {singleMovie,clear_It,setLoading,setLoadingNull,sendingToWishList} from "
 import MoviesContainer from './MoviesContainer'
 import SingleMovieContainer from "./SingleMovieContainer"
 import Spinner from "../spinner";
-
+// single movie container
 const  SingleMovie =(props) => {
 
         useEffect( () => {
