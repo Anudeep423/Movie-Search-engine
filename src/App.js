@@ -10,7 +10,7 @@ import SingleMovie from "./MoviesContainer/SingleMovie"
 import Main from "./main"
 import Navbar from "./navbar"
 import WatchList from "./WatchList"
-
+// app comoponent
 const App = (props) => {
   const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__  || compose ;
   const Store = createStore(reducer,composeEnhancers(applyMiddleware(thunk)));
